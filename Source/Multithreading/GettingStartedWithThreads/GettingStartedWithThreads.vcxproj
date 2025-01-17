@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Assignment2.cpp" />
     <ClCompile Include="DataRace.cpp" />
     <ClCompile Include="Exception_Safe.cpp" />
     <ClCompile Include="Exception_Safe_Joinable_Wrapper.cpp" />
