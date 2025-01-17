@@ -143,6 +143,7 @@
     <ClCompile Include="Exception_Safe_Joinable_Wrapper.cpp" />
     <ClCompile Include="Exception_Unsafe.cpp" />
     <ClCompile Include="MovingThread.cpp" />
+    <ClCompile Include="MultipleThreads.cpp" />
     <ClCompile Include="ReturnThread.cpp" />
     <ClCompile Include="SleepThread.cpp" />
     <ClCompile Include="ThreadException.cpp" />
