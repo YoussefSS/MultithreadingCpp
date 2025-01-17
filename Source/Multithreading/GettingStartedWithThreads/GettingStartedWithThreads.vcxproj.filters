@@ -21,5 +21,14 @@
     <ClCompile Include="SleepThread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MovingThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MovingThread.cpp" />
+    <ClCompile Include="ReturnThread.cpp" />
     <ClCompile Include="SleepThread.cpp" />
+    <ClCompile Include="ThreadException.cpp" />
     <ClCompile Include="ThreadGetID.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
