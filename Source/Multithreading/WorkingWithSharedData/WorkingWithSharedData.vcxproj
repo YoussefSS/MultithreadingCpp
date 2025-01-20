@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="InternallySynchronizedClass.cpp" />
     <ClCompile Include="PrintStringWithMutex.cpp" />
     <ClCompile Include="TryLockExample.cpp" />
   </ItemGroup>

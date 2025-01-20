@@ -21,5 +21,8 @@
     <ClCompile Include="TryLockExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InternallySynchronizedClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
