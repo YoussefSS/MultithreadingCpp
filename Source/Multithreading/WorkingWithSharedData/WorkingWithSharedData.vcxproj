@@ -144,6 +144,7 @@
     <ClCompile Include="Lock_GuardException.cpp" />
     <ClCompile Include="PrintStringWithMutex.cpp" />
     <ClCompile Include="TryLockExample.cpp" />
+    <ClCompile Include="UniqueLock.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
