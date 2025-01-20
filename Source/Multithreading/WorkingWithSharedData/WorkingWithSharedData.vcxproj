@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="InternallySynchronizedClass.cpp" />
+    <ClCompile Include="LockedMutexFromException.cpp" />
+    <ClCompile Include="Lock_GuardException.cpp" />
     <ClCompile Include="PrintStringWithMutex.cpp" />
     <ClCompile Include="TryLockExample.cpp" />
   </ItemGroup>
