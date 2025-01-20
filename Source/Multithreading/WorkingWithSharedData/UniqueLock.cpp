@@ -21,7 +21,7 @@ void task(std::string str)
 		// End of critical section
 
 		// Unlock the mutex
-		//uniq_lck.unlock();
+		uniq_lck.unlock();
 
 		std::this_thread::sleep_for(50ms);
 	} // Calls ~std::unique_lock
