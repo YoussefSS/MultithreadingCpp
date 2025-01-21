@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FasterMultipleReaderFewWritersMutex.cpp" />
     <ClCompile Include="InternallySynchronizedClass.cpp" />
     <ClCompile Include="LockedMutexFromException.cpp" />
     <ClCompile Include="Lock_GuardException.cpp" />

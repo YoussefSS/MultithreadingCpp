@@ -42,5 +42,8 @@
     <ClCompile Include="SlowMultipleReaderFewWritersMutex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FasterMultipleReaderFewWritersMutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
