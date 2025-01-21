@@ -147,6 +147,7 @@
     <ClCompile Include="PrintStringWithMutex.cpp" />
     <ClCompile Include="SlowMultipleReaderFewWritersMutex.cpp" />
     <ClCompile Include="ThreadSafeSingleton.cpp" />
+    <ClCompile Include="Thread_Local_Variables.cpp" />
     <ClCompile Include="TryLockExample.cpp" />
     <ClCompile Include="TimedMutex.cpp" />
     <ClCompile Include="UniqueLock.cpp" />
