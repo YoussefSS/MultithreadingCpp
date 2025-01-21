@@ -139,16 +139,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ClassicSingleton.cpp" />
     <ClCompile Include="FasterMultipleReaderFewWritersMutex.cpp" />
     <ClCompile Include="InternallySynchronizedClass.cpp" />
     <ClCompile Include="LockedMutexFromException.cpp" />
     <ClCompile Include="Lock_GuardException.cpp" />
     <ClCompile Include="PrintStringWithMutex.cpp" />
     <ClCompile Include="SlowMultipleReaderFewWritersMutex.cpp" />
+    <ClCompile Include="ThreadSafeSingleton.cpp" />
     <ClCompile Include="TryLockExample.cpp" />
     <ClCompile Include="TimedMutex.cpp" />
     <ClCompile Include="UniqueLock.cpp" />
     <ClCompile Include="UniqueLockTimed.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClassicSingleton.h" />
+    <ClInclude Include="ThreadSafeSingleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
