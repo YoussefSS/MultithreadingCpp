@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Call_Once.cpp" />
+    <ClCompile Include="ClassicMutualDeadlock.cpp" />
     <ClCompile Include="ClassicSingleton.cpp" />
     <ClCompile Include="FasterMultipleReaderFewWritersMutex.cpp" />
     <ClCompile Include="InternallySynchronizedClass.cpp" />
