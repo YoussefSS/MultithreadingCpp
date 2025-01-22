@@ -63,6 +63,9 @@
     <ClCompile Include="LazyInitializeDoubleCheckedLocking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Call_Once.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassicSingleton.h">
