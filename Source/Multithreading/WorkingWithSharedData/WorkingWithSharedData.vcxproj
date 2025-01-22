@@ -142,6 +142,10 @@
     <ClCompile Include="Call_Once.cpp" />
     <ClCompile Include="ClassicMutualDeadlock.cpp" />
     <ClCompile Include="ClassicSingleton.cpp" />
+    <ClCompile Include="DeadlockAvoidance_AdoptLock.cpp" />
+    <ClCompile Include="DeadlockAvoidance_DeferLock.cpp" />
+    <ClCompile Include="DeadlockAvoidance_ScopedLock.cpp" />
+    <ClCompile Include="DeadlockAvoidance_TryLock.cpp" />
     <ClCompile Include="DeadlockPractical_DiningPhilisophersProblem.cpp" />
     <ClCompile Include="FasterMultipleReaderFewWritersMutex.cpp" />
     <ClCompile Include="InternallySynchronizedClass.cpp" />
