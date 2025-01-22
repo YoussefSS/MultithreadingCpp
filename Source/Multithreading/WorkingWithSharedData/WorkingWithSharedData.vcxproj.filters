@@ -54,6 +54,15 @@
     <ClCompile Include="Thread_Local_Variables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LazyInitializationSingleThreaded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LazyInitializationMultithreadedSlow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LazyInitializeDoubleCheckedLocking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassicSingleton.h">

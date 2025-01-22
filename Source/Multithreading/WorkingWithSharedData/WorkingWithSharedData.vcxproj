@@ -142,6 +142,9 @@
     <ClCompile Include="ClassicSingleton.cpp" />
     <ClCompile Include="FasterMultipleReaderFewWritersMutex.cpp" />
     <ClCompile Include="InternallySynchronizedClass.cpp" />
+    <ClCompile Include="LazyInitializationMultithreadedSlow.cpp" />
+    <ClCompile Include="LazyInitializationSingleThreaded.cpp" />
+    <ClCompile Include="LazyInitializeDoubleCheckedLocking.cpp" />
     <ClCompile Include="LockedMutexFromException.cpp" />
     <ClCompile Include="Lock_GuardException.cpp" />
     <ClCompile Include="PrintStringWithMutex.cpp" />
