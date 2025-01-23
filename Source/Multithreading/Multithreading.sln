@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GettingStartedWithThreads",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorkingWithSharedData", "WorkingWithSharedData\WorkingWithSharedData.vcxproj", "{72619165-5065-45D8-AEBD-E22CE2423141}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadSynchronization", "ThreadSynchronization\ThreadSynchronization.vcxproj", "{FA201237-0BED-4C8F-BA07-B3A57C1322C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{72619165-5065-45D8-AEBD-E22CE2423141}.Release|x64.Build.0 = Release|x64
 		{72619165-5065-45D8-AEBD-E22CE2423141}.Release|x86.ActiveCfg = Release|Win32
 		{72619165-5065-45D8-AEBD-E22CE2423141}.Release|x86.Build.0 = Release|Win32
+		{FA201237-0BED-4C8F-BA07-B3A57C1322C1}.Debug|x64.ActiveCfg = Debug|x64
+		{FA201237-0BED-4C8F-BA07-B3A57C1322C1}.Debug|x64.Build.0 = Debug|x64
+		{FA201237-0BED-4C8F-BA07-B3A57C1322C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA201237-0BED-4C8F-BA07-B3A57C1322C1}.Debug|x86.Build.0 = Debug|Win32
+		{FA201237-0BED-4C8F-BA07-B3A57C1322C1}.Release|x64.ActiveCfg = Release|x64
+		{FA201237-0BED-4C8F-BA07-B3A57C1322C1}.Release|x64.Build.0 = Release|x64
+		{FA201237-0BED-4C8F-BA07-B3A57C1322C1}.Release|x86.ActiveCfg = Release|Win32
+		{FA201237-0BED-4C8F-BA07-B3A57C1322C1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
