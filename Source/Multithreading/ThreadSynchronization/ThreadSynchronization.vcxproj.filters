@@ -30,5 +30,11 @@
     <ClCompile Include="ConditionVariabe_Practical.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FutureAndPromise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FutureAndPromise_Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
