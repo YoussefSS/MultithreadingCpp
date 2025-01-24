@@ -145,6 +145,7 @@
     <ClCompile Include="ConditionVariable_Predicate.cpp" />
     <ClCompile Include="FutureAndPromise.cpp" />
     <ClCompile Include="FutureAndPromise_Exception.cpp" />
+    <ClCompile Include="FutureAndPromise_SharedFuture.cpp" />
     <ClCompile Include="ThreadCoordinationPractical.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
