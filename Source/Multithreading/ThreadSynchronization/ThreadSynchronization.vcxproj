@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConditionVariabe_Practical.cpp" />
     <ClCompile Include="ConditionVariable.cpp" />
     <ClCompile Include="ConditionVariable_MutipleThreads.cpp" />
     <ClCompile Include="ConditionVariable_Predicate.cpp" />

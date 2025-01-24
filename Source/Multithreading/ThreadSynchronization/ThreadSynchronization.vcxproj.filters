@@ -27,5 +27,8 @@
     <ClCompile Include="ConditionVariable_MutipleThreads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConditionVariabe_Practical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
