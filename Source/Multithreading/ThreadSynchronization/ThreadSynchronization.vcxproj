@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConditionVariable.cpp" />
+    <ClCompile Include="ConditionVariable_MutipleThreads.cpp" />
+    <ClCompile Include="ConditionVariable_Predicate.cpp" />
     <ClCompile Include="ThreadCoordinationPractical.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,17 +1,13 @@
-//// Condition variable example
+//// Condition variable with predicate
 ////
-//// The reader thread waits for a notification
-//// The writer thread modifies the shared variable "sdata"
-//// The writer thread sends a notification
-//// The reader thread receives the notification and resumes
-//// The reader thread uses the new value of the shared data
+//// The reader thread will wait until "condition" becomes true
+//// This avoids lost and spurious wakeups
 //#include <iostream>
 //#include <thread>
 //#include <condition_variable>
 //#include <string>
-//#include <chrono>
 //
-//using namespace std::literals;
+//using namespace std::chrono;
 //
 //// The shared data
 //std::string sdata;
@@ -21,6 +17,9 @@
 //
 //// The condition variable
 //std::condition_variable cond_var;
+//
+//// bool flag for predicate
+//bool condition = false;
 //
 //// Waiting thread
 //void reader()
@@ -34,7 +33,9 @@
 //	// This will unlock the mutex and make this thread
 //	// sleep until the condition variable wakes us up
 //	std::cout << "Reader thread sleeping...\n";
-//	cond_var.wait(uniq_lck);
+//
+//	// Lambda predicate that checks the flag
+//	cond_var.wait(uniq_lck, [] {return condition; });
 //
 //	// The condition variable has woken this thread up
 //	// and locked the mutex
@@ -42,6 +43,7 @@
 //
 //	// Display the new value of the string
 //	std::cout << "Data is \"" << sdata << "\"\n";
+//	std::cout << "Reader thread unlocks the mutex\n";
 //}
 //
 //// Notifying thread
@@ -63,6 +65,11 @@
 //		// Modify the string
 //		std::cout << "Writer thread modifying data...\n";
 //		sdata = "Populated";
+//
+//		// Set the flag
+//		condition = true;
+//
+//		std::cout << "Writer thread unlocks the mutex\n";
 //	}
 //
 //	// Notify the condition variable
@@ -78,9 +85,12 @@
 //	// Display its initial value
 //	std::cout << "Data is \"" << sdata << "\"\n";
 //
-//	// Start the threads
-//	std::thread read(reader);
+//	// The notification is not lost,
+//	// even if the writer thread finishes before the reader thread starts
+//	// or there is a "spurious wakeup" (wait returns without a notification)
 //	std::thread write(writer);
+//	std::this_thread::sleep_for(500ms);
+//	std::thread read(reader);
 //
 //	write.join();
 //	read.join();
