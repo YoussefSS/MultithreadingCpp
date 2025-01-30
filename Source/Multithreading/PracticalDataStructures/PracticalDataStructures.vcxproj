@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BankMonitorBetter.cpp" />
     <ClCompile Include="BankMonitorClass.cpp" />
     <ClCompile Include="BankNaiveLock.cpp" />
     <ClCompile Include="CrashPushingToVector.cpp" />
