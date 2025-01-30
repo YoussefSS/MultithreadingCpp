@@ -15,8 +15,8 @@ std::mutex mut;
  * but when an array is full, a new one is usually created at a much bigger size in a different location
  * and the old items moved from the old to the new, and that old memory is no longer available to the program.
  * So if we get a thread that releases a block of memory, and another thread that is trying to push to that block of memory, the program crashes 
- *
- *
+ */
+
 void func1()
 {
 	// Potentially conflicting access - must be protected
