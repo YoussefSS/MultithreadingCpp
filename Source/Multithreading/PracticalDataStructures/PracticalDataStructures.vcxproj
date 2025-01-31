@@ -143,8 +143,13 @@
     <ClCompile Include="BankMonitorClass.cpp" />
     <ClCompile Include="BankNaiveLock.cpp" />
     <ClCompile Include="CrashPushingToVector.cpp" />
+    <ClCompile Include="Semaphore.cpp" />
     <ClCompile Include="SharedPtrDataInMemory.cpp" />
     <ClCompile Include="SharedPtrReferenceCount.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinarySemaphore.h" />
+    <ClInclude Include="Sempahore.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
