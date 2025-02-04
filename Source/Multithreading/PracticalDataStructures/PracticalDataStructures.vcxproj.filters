@@ -44,5 +44,8 @@
     <ClInclude Include="BinarySemaphore.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="ConcurrentQueue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
